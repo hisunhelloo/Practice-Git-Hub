@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ## 🔸 Git Working Process
 1. Issue를 등록한다.  
-2. 깃 컨벤션에 맞게 Branch를 생성한다.  
+2. 깃 컨벤션에 맞게 Branch를 생성한다. `git checkout -b [브랜치 명]`
 3. Local Repository에서 `git add` → `git commit` 후 Remote Repository에 해당 브랜치를 `git push` 한다.  
 4. GitHub에서 Pull Request(PR)를 생성하여 main 브랜치로 Merge 요청을 보낸다.  
 5. 코드 리뷰 및 자동 테스트(CI)를 확인한다.  
